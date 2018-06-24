@@ -14,7 +14,7 @@
 
 
     <TextView
-        android:id="@+id/storyTextView"
+        android:id="@+id/ceritaTextView"
         android:text="@string/T1_Story"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         android:textColor="#ffffffff"/>
 
     <Button
-        android:id="@+id/buttonTop"
+        android:id="@+id/tombolAtas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/T1_Ans1"
@@ -39,18 +39,18 @@
         android:textSize="15sp"/>
 
     <Button
-        android:id="@+id/buttonBottom"
+        android:id="@+id/tombolBawah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/T1_Ans2"
+        android:layout_alignEnd="@+id/tombolAtas"
+        android:layout_alignLeft="@+id/tombolAtas"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/buttonTop"
-        android:layout_alignStart="@+id/buttonTop"
-        android:layout_alignRight="@+id/buttonTop"
-        android:layout_alignEnd="@+id/buttonTop"
+        android:layout_alignRight="@+id/tombolAtas"
+        android:layout_alignStart="@+id/tombolAtas"
         android:background="#3498db"
+        android:text="@string/T1_Ans2"
         android:textColor="#ecf0f1"
-        android:textSize="15sp"/>
+        android:textSize="15sp" />
 
 
 
